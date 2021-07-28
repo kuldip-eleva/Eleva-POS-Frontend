@@ -1,0 +1,35 @@
+.categorys{
+    display: flex;
+    /* width: 100% ; */
+    max-width: 1000px !important;
+
+    overflow: auto;
+    /* overflow-x:hidden; */
+}
+
+.btn{
+    text-align: center;
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16;
+    background-color: #27252D;
+}
+.select-btn{
+    text-align: center;
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-size: 16;
+    color: white;
+    background-color: #EA6E00;
+}

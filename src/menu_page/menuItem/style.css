@@ -1,0 +1,10 @@
+.food{
+    height: 166px;
+    /* background-image: url("../images/aa.jpg") !important; */
+    width: 169px;
+    border-radius: 9px;
+    border: none;
+    margin: 10px;
+    color:white;
+    background-color: #27252D;
+}
