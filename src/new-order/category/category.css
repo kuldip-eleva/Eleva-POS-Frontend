@@ -1,17 +1,14 @@
 .categorys{
     display: flex;
-    /* width: 100% ; */
-    max-width: 1000px !important;
-
+    width: 55vw !important;
     overflow: auto;
-    /* overflow-x:hidden; */
 }
 
 .btn{
     text-align: center;
     height: 120px !important;
     width: 120px !important;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -24,7 +21,7 @@
     text-align: center;
     height: 120px !important;
     width: 120px !important;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
     border: none;
     outline: none;
     border-radius: 5px;

@@ -4,7 +4,6 @@ export const menuData = [
         category:"Populor",
         type: ["Lunch", "Dinner"],
         price: 165,
-        logo:"",
         Stock: "Available",
     },
     {

@@ -1,0 +1,48 @@
+.nav-bar{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height:80px;
+    background-color: #27252D;
+}
+.heading{
+    width:300px
+}
+.heading h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #2DA24A;
+}
+.nav-options{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 15px;
+}
+.refresh{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+.quick-order{
+    width: 146px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.option Select{
+    border: none;
+}
+.nav-options .css-yk16xz-control{
+    width:100px;
+    background-color: transparent !important;
+    color: white;
+    border:none;
+}
+.nav-options>span:last-child{
+    color:white !important;
+}

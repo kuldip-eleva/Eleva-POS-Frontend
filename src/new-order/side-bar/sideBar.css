@@ -1,0 +1,30 @@
+.side-bar{
+    color:white;
+    background-color: #27252D;
+    width: 120px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    /* height: 100%; */
+}
+
+.side-bar h1{
+    height: 32px;
+    width: 40px;
+}
+.task-name{
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+}
+.task{
+    margin: 5px 0px 10px 0px;
+}
+.close-register{
+    height: 80px;
+    width: 80px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: #C10000;
+}

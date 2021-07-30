@@ -1,0 +1,16 @@
+::placeholder {
+    color: #828282;
+}
+.menu-list{
+    overflow:auto;
+    margin: 3px 10px 3px 0px;
+    height: 100% !important;
+    max-height: 527px;
+    max-width: 850px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.menu{
+    height: 100% !important;
+}

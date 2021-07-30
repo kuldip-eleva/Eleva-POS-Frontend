@@ -1,0 +1,85 @@
+.order-data{
+    overflow: overlay;
+    height: 450px !important;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #383A41;
+    border-color: #828282 !important;
+}
+.order-table{
+    /* overflow: auto;
+    height: 200px !important; */
+    /* background-color: #27252D; */
+    width:100%;
+    color: white;
+    
+}
+th, .total-bill h6{
+    color: #828282;
+}
+.table-btn{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.chekout-btn{
+    height:40px;
+    width:220px;
+    border:1px solid #2DA24A;
+    background-color:transparent !important;
+    color:white;
+    outline: none; 
+    border-radius: 10px;
+    font-family: Roboto;
+}
+.send-kitchen-btn{
+    height:40px;
+    width:220px;
+    background-color:  #FBDA61;
+    border: none;
+    outline: none;
+    color: #27252D;
+    border-radius: 10px;
+    font-family: Roboto;
+}
+
+.billing{
+    /* margin-top: 10px; */
+    width: 40vw !important;
+    height: 100%;
+    margin: 10px;
+}
+.search{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #27252D;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.total-bill{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin-top: 10px;
+    height: 60px;
+    color: white;
+    background-color: #27252D;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.billing-options{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}

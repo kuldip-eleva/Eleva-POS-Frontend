@@ -3,19 +3,15 @@ import Categorys from '../category/Categorys'
 import { orderContext } from '../index/Index'
 import MenuItem from '../menuItem/MenuItem'
 import { menuData } from './dummyMenu'
-import "./style.css"
+import "./menu.css"
 
 
 const Menu = () => {
 
     const [order, setorder, foodCategory, setfoodCategory] = useContext(orderContext);
     return (
-        <div className="div1">
+        <div className="menu">
             <Categorys />
-            <input 
-                className="search"
-                placeholder="Search products" 
-            />
             <div className="menu-list" >
                 { menuData.map((item, indx) => (
                     item.category === foodCategory && <MenuItem key={indx} data={item}/>
