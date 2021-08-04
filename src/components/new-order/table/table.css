@@ -1,0 +1,23 @@
+.tables{
+    /* width: 95%; */
+    height: 97%;
+    margin: 10px;
+    max-width: 850px;
+    overflow: auto;
+    background-color: #27252D;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.table{
+    width: 180px;
+    height: 130px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 15px;
+    background-color: #4ACF8C;
+}
+.table h6{
+    margin: 15px;
+}

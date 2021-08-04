@@ -1,8 +1,7 @@
-
 import React, {useContext} from 'react'
 import "./style.css"
-import aa from "../images/aa.jpg";
-import { orderContext } from '../index/Index';
+import aa from "../../images/aa.jpg";
+import { orderContext } from '../../index/Index';
 
 const MenuItem = ({data}) => {
 

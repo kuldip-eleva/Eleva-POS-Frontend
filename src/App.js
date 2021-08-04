@@ -1,6 +1,6 @@
-import Index from "./new-order/index/Index";
+import Index from "./components/new-order/index/Index"
 import "./App.css"
-import NavBar from "./nav-bar/NavBar";
+import NavBar from "./components/nav-bar/NavBar"
 function App() {
   return (
     <div className="App">

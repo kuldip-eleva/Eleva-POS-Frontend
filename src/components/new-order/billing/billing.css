@@ -1,6 +1,6 @@
 .order-data{
     overflow: overlay;
-    height: 450px !important;
+    height: 400px !important;
     width: 100%;
     margin-top: 10px;
     border-radius: 10px;
@@ -51,6 +51,8 @@ th, .total-bill h6{
     width: 40vw !important;
     height: 100%;
     margin: 10px;
+    margin-left: 120px;
+    padding: 30px 41px;
 }
 .search{
     width: 100%;

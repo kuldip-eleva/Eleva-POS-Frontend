@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import Categorys from '../category/Categorys'
 import { orderContext } from '../index/Index'
-import MenuItem from '../menuItem/MenuItem'
+import MenuItem from './menuItem/MenuItem.js'
 import { menuData } from './dummyMenu'
 import "./menu.css"
 
