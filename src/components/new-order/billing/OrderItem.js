@@ -1,6 +1,7 @@
-import React, { useContext } from 'react'
+import React, { useContext} from 'react'
 import { orderContext } from '../index/Index';
 import "./orderItem.css"
+import { DeleteOutlined,PlusCircleOutlined,MinusCircleOutlined } from '@ant-design/icons';
 
 const OrderItem = ({orderData}) => {
 
@@ -60,8 +61,19 @@ const OrderItem = ({orderData}) => {
                 <div 
                     className="qantity-event" 
                     onClick={decrimentHandler}
-                >-</div>
-
+                >
+                 {
+                     order.map((dish)=>{
+                         if(dish.item === orderData.item){
+                             if(dish.quantity < 2  ){
+                                return <DeleteOutlined className = "order-icon"/>
+                             }else{
+                                return <MinusCircleOutlined className = "order-icon"/>
+                            }     
+                         }
+                     })
+                 }   
+                </div>
                 <input 
                     className="quan" 
                     value={orderData.quantity} 
@@ -70,7 +82,7 @@ const OrderItem = ({orderData}) => {
                 <div 
                     className="qantity-event" 
                     onClick={incrimentHandler}
-                >+</div>
+                ><PlusCircleOutlined className = "order-icon"/></div>
             </td>
             <td>{orderData.total}</td>
         </tr>
