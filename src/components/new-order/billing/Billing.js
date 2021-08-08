@@ -27,9 +27,9 @@ const Billing = () => {
       </div>
       <div className="order-data">
         <table className="order-table">
-            <thead style={{height:"40px", backgroundColor:"#27252D", borderColor:"#27252D"}}>
+            <thead style={{height:"40px", backgroundColor:"#27252D", borderColor:"#27252D", position: "sticky",top: "0"}}>
                 <tr style={{ backgroundColor:"#27252D", borderColor:"#27252D"}}>
-                    <th style={{ backgroundColor:"#27252D", borderColor:"#27252D"}}>Item</th>
+                    <th style={{ backgroundColor:"#27252D", borderColor:"#27252D",width:"200px"}}>Item</th>
                     <th className="price_col">Price</th>
                     <th className="qty_col">Qty</th>
                     <th className="price_col">Total</th>

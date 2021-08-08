@@ -8,16 +8,18 @@
     border-color: #828282 !important;
 }
 .order-table{
-    /* overflow: auto;
-    height: 200px !important; */
+    overflow: auto;
+    /*height: 200px !important; */
     /* background-color: #27252D; */
     width:100%;
     color: white;
-    
+    border-collapse: collapse;  
 }
+
 th, .total-bill h6{
     color: #828282;
 }
+
 .table-btn{
     width: 100%;
     margin-top: 15px;
